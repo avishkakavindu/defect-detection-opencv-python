@@ -2,6 +2,7 @@
 
 
 Surface Defect Detection script to detect defects in surface glove using python and OpenCV library
+###### Just playing with OpenCV
 
 
 
