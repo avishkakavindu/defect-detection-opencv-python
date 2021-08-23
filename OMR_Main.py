@@ -66,11 +66,13 @@ while True:
         # resize image
         image = cv2.resize(image, IMAGE_SIZE)
         imageOri = cv2.resize(imageOri, IMAGE_SIZE)
+        image = cv2.GaussianBlur(image, (3, 3), 0)
 
         # Threshold the image so that your black markings are black on a white background.
         ret, thresh_basic = cv2.threshold(image, THRESHOLD_VALUE, MAX_VALUE, cv2.THRESH_BINARY)
+
         # show thresholded image - DEBUGGING
-        #cv2.imshow("Thresh basic", thresh_basic)
+        cv2.imshow("Thresh basic", thresh_basic)
 
         #thresh_addapt = cv2.adaptiveThreshold(image, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 115, 1)
         # cv2.imshow("Thresh Adapt", thresh_addapt)
