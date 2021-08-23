@@ -1,7 +1,7 @@
-# Defect-Detection-OpenCV
+# Defect-Detection-OpenCV(uninteligent)
 
 
-Surface Defect Detection script to detect defects in surface glove using python and OpenCV library
+Surface Defect Detection script(unintelligent) to detect defects on the surface of a glove using python and OpenCV library
 ##### Just playing with OpenCV
 
 
@@ -53,4 +53,4 @@ License
 :copyright: Avishka Dambawinna #@zunu
 
 
-**Free Script, Hell Yeah! **
+
