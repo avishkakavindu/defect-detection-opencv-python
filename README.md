@@ -47,6 +47,25 @@ To install numpy...
 $ pip install numpy
 ```
 
+<!-- CONTRIBUTING -->
+
+# Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. Your *contributions* would help others!  
+
+1. Fork the Project
+2. Create your Project Branch ( `git checkout -b branch-name` )
+3. Add your Changes ( `git add .` )
+4. Commit your Changes ( `git commit -m 'Message'` )
+5. Push to the Branch ( `git push origin branch-name` )
+6. Open a Pull Request
+
+## Special note
+- You can play with the implementstion and improve it using any approach
+- Make sure to follow good coding practices(meaningful variables, comments, etc.)
+- Make sure to mention the changes in your commit message and pull requests
+
+
 License
 ----
 
